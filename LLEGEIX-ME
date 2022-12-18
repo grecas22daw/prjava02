@@ -1,0 +1,23 @@
+Comandes:
+1--
+ -> git checkout -b branca00 -> git checkout branca00 -> git status
+  
+5--
+ -> git checkout main -> git status -> git log
+
+7--
+ -> git checkout branca00
+ 
+10B--
+ -> git merge branca00
+12--
+  -> git push -u origin main
+14A--
+ ->git push -u origin branca01
+
+Respostes:
+5. No se ve ya que hemos actualizado la branca y no el main
+6. No, por que al cambiar de branca el fichero cambia junto con el contenido de la branca en la que nos encontramos
+7. Si, por que nos encontramos en la branca en la que se ha hecho el cambio 
+12c. Por que solo hemos hecho push de la main, pero no de la branca, asi que solo vemos la de main
+14c. 1 commit
